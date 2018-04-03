@@ -1,0 +1,44 @@
+.image-adjust{
+    display: inline-block;
+}
+
+@media(max-width:800px){
+    .image-adjust{
+        height: 80%;
+        width: 80%;
+    }
+}
+
+@media(max-width:700px){
+    .image-adjust{
+        height: 70%;
+        width: 70%;
+    }
+}
+
+@media(max-width:600px){
+    .image-adjust{
+        height: 60%;
+        width: 60%
+    }
+}
+
+@media(max-width:500px){
+    .image-adjust{
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media(max-width:400px){
+    .image-adjust{
+        height: 40%;
+        width: 40%;
+    }
+}
+
+#row1 {
+    opacity: 0;
+    animation: fadeInAlternate;
+}
+

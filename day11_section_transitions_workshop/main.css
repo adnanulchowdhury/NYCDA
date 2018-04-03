@@ -1,0 +1,123 @@
+.section-1{
+    background-color: #94AE89;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    justify-content: space-between;
+    /* opacity: 0; */
+}
+
+.section-2{
+    background-color: #A8BCA1;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    justify-content: center;
+    /* opacity: 0; */
+}
+
+.section-3{
+    background-color: #C0DA74;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    order: 3;
+    justify-content: space-between;
+    /* opacity: 0; */
+}
+
+.section-4{
+    background-color: #BEEDAA;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    order: 4;
+    justify-content: space-between;
+    /* opacity: 0; */
+}
+
+.image-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-2{
+    display: block;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-content: center;
+    width: 50%;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+.text-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.image-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.famous_qoute{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 800px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+@keyframes hiddenshow{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+.show{
+    animation: hiddenshow 600ms forwards;
+}

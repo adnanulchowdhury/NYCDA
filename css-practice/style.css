@@ -1,0 +1,20 @@
+
+#container{
+    height: 400px;
+}
+
+.box{
+    width: 25%; 
+    height: 300px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin: 0px 20px;
+    font-size: 110%;
+    border: solid black 1px;
+
+}
+
+.box:hover{
+    background-color: red;
+}
